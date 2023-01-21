@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar {
+  display: block;
+  max-width: 280px;
+  position: relative;
+  height: 5090px;
+  border-right: 2px solid gray;
+}
+
+#side-bar-nav {
+  position: fixed;
+  width: 280px;
+}
+
+.side-bar-header {
+  margin: 0 10px 10px 10px;
+  font-size: 30px;
+  padding-top: 5px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.first-list {
+  list-style: none;
+}
+
+.ul-link {
+  padding: 15px 10px 10px 24px;
+  border-top: 1px solid;
+  font-size: 17px;
+}
+
+.ul-link a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:link,
+.link:active,
+.link:visited {
+  color: inherit;
+}
+
+#main-doc {
+  margin: 25px 10px 10px 0;
+  display: inline-block;
+  position: absolute;
+  left: 320px;
+  top: 0;
+  height: auto;
+  width: 82vw;
+}
+
+#intro,
+#known,
+#javascript_java,
+#hello_world,
+#variables,
+#declaration,
+#variable_scope,
+#global_variable,
+#constant,
+#data_type,
+#if_else,
+#while_loop,
+#function_declar,
+#reference {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 10px 10px 10px 0;
+  font-weight: 500;
+  font-family: "Noto Serif Toto", serif;
+}
+
+.intro-p,
+.known-p,
+.javascript-p,
+.helloworld-p,
+.variables-p,
+.declar-p,
+.variable-scope-p,
+.global-variable-p,
+.constant-p,
+.data-type-p,
+.if-else-p,
+.while-loop-p,
+.function-declar-p {
+  padding: 10px 10px 0 15px;
+  line-height: 1.5;
+}
+
+.intro-ul,
+.known-ul,
+.data-type-ul,
+.while-loop-ul,
+.function-declar-ul,
+.reference-ul {
+  padding-left: 70px;
+  line-height: 1.6;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+}
+
+.intro-li,
+.known-li,
+.data-type-li,
+.while-loop-li,
+.function-declar-li,
+.reference-li {
+  margin: 10px auto;
+}
+
+.data-inner-li {
+  margin-left: 40px;
+  padding: 5px;
+  list-style-type: circle;
+}
+
+.reg-code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  padding: 15px;
+  margin: 10px;
+}
+
+.multiple-lines-code {
+  display: block;
+  margin: 5px 10px 5px 15px;
+  padding-left: 20px;
+  padding-top: 8px;
+}
+
+.multi-line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
